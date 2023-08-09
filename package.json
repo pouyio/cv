@@ -4,11 +4,12 @@
   "description": "",
   "scripts": {
     "start": "nodemon --watch index.html --watch data.json build.js & parcel ./es.html ./en.html --no-hmr",
-    "build": "LANGUAGE=es node pdf.js && LANGUAGE=en node pdf.js && node build.js && parcel build es.html --no-source-maps -d docs && parcel build en.html --no-source-maps -d docs && mv docs/es.html docs/index.html"
+    "build": "cross-env LANGUAGE=es node pdf.js && cross-env LANGUAGE=en node pdf.js && node build.js && parcel build es.html --no-source-maps --dist-dir docs && parcel build en.html --no-source-maps --dist-dir docs && mv docs/es.html docs/index.html"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "husky": "^4.3.0",
     "nodemon": "^2.0.5",
     "parcel": "^2.0.0-nightly.425",
@@ -16,7 +17,6 @@
     "puppeteer": "^5.3.1",
     "sass": "^1.27.0"
   },
-  "dependencies": {},
   "husky": {
     "hooks": {
       "pre-commit": "npm run build && git add -A docs"

@@ -1,5 +1,6 @@
 {
   "es": {
+    "linkedin": "https://www.linkedin.com/in/vicenteogc/?locale=es_ES",
     "translate": {
       "current": "es",
       "to": "en"
@@ -90,6 +91,7 @@
     }
   },
   "en": {
+    "linkedin": "https://www.linkedin.com/in/vicenteogc/?locale=en_US",
     "translate": {
       "current": "en",
       "to": "index"
