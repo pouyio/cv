@@ -38,6 +38,11 @@
   <body>
     <article class="container">
       <!-- HEADER -->
+      <select id="theme" class="no-print">
+        <option value="">🌓</option>
+        <option value="theme-light">🌞</option>
+        <option value="theme-dark">🌚</option>
+      </select>
       <section class="header">
         <div class="title">
           <h1 class="name">Vicente Ortiz</h1>
@@ -142,4 +147,31 @@
       </section>
     </article>
   </body>
+  <script>
+    const themeSelect = document.getElementById("theme");
+
+    window.addEventListener("load", () => {
+      const currentTheme = localStorage.getItem("theme");
+      themeSelect.value = currentTheme ?? "";
+      if (currentTheme) {
+        document.body.classList.add(currentTheme);
+      } else {
+        document.body.classList.remove("theme-light");
+        document.body.classList.remove("theme-dark");
+      }
+    });
+
+    themeSelect.addEventListener("change", (e) => {
+      const newValue = e.target.value;
+      document.body.classList.remove("theme-light");
+      document.body.classList.remove("theme-dark");
+
+      if (newValue) {
+        localStorage.setItem("theme", newValue);
+        document.body.classList.add(newValue);
+      } else {
+        localStorage.removeItem("theme");
+      }
+    });
+  </script>
 </html>

@@ -1,32 +1,85 @@
-:root {
+@mixin theme-light {
   --main-color: #6ca6cd;
   --light-text-color: #767676;
+  --container-background: white;
+  --main-background: #f6f6f6;
+  --link-color: black;
+  --separator-color: rgba(0, 0, 0, 0.1);
+  --shadow-color: rgba(0, 0, 0, 0.175);
+  color-scheme: light;
+}
+
+@mixin theme-dark {
+  --main-color: #52b8d5;
+  --light-text-color: #767676;
+  --main-background: black;
+  --container-background: #212121;
+  --link-color: white;
+  --separator-color: rgba(255, 255, 255, 0.2);
+  --shadow-color: transparent;
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    @include theme-dark();
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    @include theme-light();
+  }
+}
+
+.theme-dark {
+  @include theme-dark();
+}
+.theme-light {
+  @include theme-light();
+}
+
+:root {
   font-size: 16px;
 }
 
 ::selection {
-  color: white;
+  color: var(--container-background);
   background: var(--main-color);
 }
 
+#theme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.2em 0.5em;
+  border-radius: 5px;
+}
+
 a {
-  transition: background-color 0.1s ease, color 0.1s ease;
+  transition:
+    background-color 0.1s ease,
+    color 0.1s ease;
 }
 
 html {
   font-family: "Commissioner";
-  background: #f6f6f6;
+  min-height: 100vh;
 }
 
 body {
   line-height: 1.5;
   font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  background: var(--main-background);
+  color: var(--link-color);
 }
 
 hr {
   margin: 1rem 0;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid var(--separator-color);
 }
 
 @mixin group-title {
@@ -51,7 +104,7 @@ hr {
 }
 
 a {
-  color: black;
+  color: var(--link-color);
   &:hover {
     color: var(--main-color);
   }
@@ -62,7 +115,7 @@ a {
   justify-content: space-between;
   > a {
     background-color: var(--main-color);
-    color: white;
+    color: var(--container-background);
     padding: 0 0.4rem;
     border-radius: 100px;
     text-decoration: none;
@@ -73,11 +126,12 @@ a {
 }
 
 .container {
+  border-radius: 5px;
   padding: 2rem;
-  margin: 3rem auto;
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  margin: 3rem 1rem;
+  box-shadow: 0 1rem 3rem var(--shadow-color);
   max-width: 1024px;
-  background-color: white;
+  background-color: var(--container-background);
 
   .header {
     display: flex;
@@ -102,7 +156,7 @@ a {
     .links {
       padding: 0 1rem;
       font-size: 0.75rem;
-      border-left: 1px solid rgba(0, 0, 0, 0.1);
+      border-left: 1px solid var(--separator-color);
       display: flex;
       align-items: center;
       > ul > li {
@@ -175,7 +229,7 @@ a {
     }
 
     .side {
-      border-left: 1px solid rgba(0, 0, 0, 0.1);
+      border-left: 1px solid var(--separator-color);
 
       ul {
         > li {
@@ -207,6 +261,7 @@ a {
     .container {
       margin: 0;
       padding: 1rem;
+      border-radius: 0;
 
       .header {
         flex-direction: column;
