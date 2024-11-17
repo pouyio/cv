@@ -1,24 +1,23 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
-const Bundler = require("parcel-bundler");
-const path = require("path");
+const { createServer } = require("vite");
 
 (async () => {
-  const bundler = new Bundler(path.join(__dirname, "./index.html"));
-  const parcelServer = await bundler.serve();
+  const viteServer = await createServer({
+    root: __dirname,
+    server: { port: 1234 },
+  });
+  await viteServer.listen();
+
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
 
   console.log(`${process.env.LANGUAGE} language process start`);
 
-  await page.goto(
-    `http://localhost:${parcelServer.address().port}/${
-      process.env.LANGUAGE
-    }.html`,
-    {
-      waitUntil: "networkidle0",
-    }
-  );
+  await page.goto(`http://localhost:1234/${process.env.LANGUAGE}.html`, {
+    waitUntil: "networkidle0",
+  });
+
   await page.evaluateHandle("document.fonts.ready");
   const buffer = await page.pdf({
     format: "A4",
@@ -35,7 +34,7 @@ const path = require("path");
   );
 
   console.log(`${process.env.LANGUAGE} language process end`);
-  parcelServer.close();
+  await viteServer.close();
   await browser.close();
   process.exit();
 })();
