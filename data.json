@@ -63,9 +63,14 @@
       "title": "Experiencia",
       "list": [
         {
+          "title": "Ingeniero frontend en <a href=\"https://www.pleo.io/\" target=\"_new\">Pleo</a>",
+          "date": "Octubrre 2025 - Actualidad",
+          "text": "TBD"
+        },
+        {
           "title": "Desarrollador fullstack en <a href=\"https://www.lansweeper.com/\" target=\"_new\">Lansweeper</a>",
-          "date": "Julio 2019 - Actualidad",
-          "text": "En esta aventura formo parte del equipo encargado de crear una solución cloud SaaS para la gestión de inventario en el mundo IT. El software es desarrollado con React para el front; microservicios en node para los diferentes backends; graphQL, gRPC y kafka para las communicaciones y kubernetes para la infraestructura. Todo ello con CI/CD, github y tests. En esta etapa me encuentro con retos nuevos como orientar todo el desarrollo al rendimiento y la escalabilidad, realizar pruebas de concepto de forma muy ágil y trabajar y comunicarme con equipos alrededor de todo el mundo."
+          "date": "Julio 2019 - Septiembre 2025",
+          "text": "Formé parte del equipo encargado de crear una solución cloud SaaS para la gestión de inventario en el mundo IT. El software se desarrolló con React para el front; microservicios en node para los diferentes backends; graphQL, gRPC y kafka para las communicaciones y kubernetes para la infraestructura. Todo ello con CI/CD, github y tests. En esta etapa me encontré con retos nuevos como orientar todo el desarrollo al rendimiento y la escalabilidad, realizar pruebas de concepto de forma muy ágil y trabajar y comunicarme con equipos alrededor de todo el mundo."
         },
         {
           "title": "Desarrollador fullstack en <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
@@ -152,9 +157,14 @@
       "title": "Experience",
       "list": [
         {
+          "title": "Frontend engineer at <a href=\"https://www.pleo.io/\" target=\"_new\">Pleo</a>",
+          "date": "October 2025 - Nowadays",
+          "text": ""
+        },
+        {
           "title": "Fullstack developer at <a href=\"https://www.lansweeper.com/\" target=\"_new\">Lansweeper</a>",
-          "date": "July 2019 - Nowadays",
-          "text": "In this adventure I take part in the team in charge of creating an IT assets management SaaS solution. This software is developed with React on the front; node microservices on the backends; graphQL, gRPC and kafka for communication and kubernetes for infraestructure. All of this stick together with CI/CD on github and tests. In this position I find new challenges everyday like focusing on performance and scalability when coding, creating POCs quickly and working with distributed teams across the globe."
+          "date": "July 2019 - September 2025",
+          "text": "In this adventure I took part in the team in charge of creating an IT assets management SaaS solution. This software was developed with React on the front; node microservices on the backends; graphQL, gRPC and kafka for communication and kubernetes for infraestructure. All of this stick together with CI/CD on github and tests. In this position I found new challenges everyday like focusing on performance and scalability when coding, creating POCs quickly and working with distributed teams across the globe."
         },
         {
           "title": "Fullstack developer at <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
