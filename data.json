@@ -38,7 +38,7 @@
             "item": "React/Angular"
           },
           {
-            "item": "HTML/CSS/SCSS"
+            "item": "HTML/CSS/"
           },
           {
             "item": "REST/GraphQL"
@@ -64,13 +64,13 @@
       "list": [
         {
           "title": "Ingeniero frontend en <a href=\"https://www.pleo.io/\" target=\"_new\">Pleo</a>",
-          "date": "Octubrre 2025 - Actualidad",
+          "date": "Octubre 2025 - Actualidad",
           "text": "TBD"
         },
         {
           "title": "Desarrollador fullstack en <a href=\"https://www.lansweeper.com/\" target=\"_new\">Lansweeper</a>",
           "date": "Julio 2019 - Septiembre 2025",
-          "text": "Formé parte del equipo encargado de crear una solución cloud SaaS para la gestión de inventario en el mundo IT. El software se desarrolló con React para el front; microservicios en node para los diferentes backends; graphQL, gRPC y kafka para las communicaciones y kubernetes para la infraestructura. Todo ello con CI/CD, github y tests. En esta etapa me encontré con retos nuevos como orientar todo el desarrollo al rendimiento y la escalabilidad, realizar pruebas de concepto de forma muy ágil y trabajar y comunicarme con equipos alrededor de todo el mundo."
+          "text": "Formé parte del equipo encargado de crear una solución cloud SaaS para la gestión de inventario en el mundo IT. El software se desarrolló con React para el front; microservicios en node para los diferentes backends; graphQL, gRPC y kafka para las comunicaciones y kubernetes para la infraestructura. Todo ello con CI/CD, github y tests. En esta etapa me encontré con retos nuevos como orientar todo el desarrollo al rendimiento y la escalabilidad, realizar pruebas de concepto de forma muy ágil y trabajar y comunicarme con equipos alrededor de todo el mundo."
         },
         {
           "title": "Desarrollador fullstack en <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
@@ -158,17 +158,17 @@
       "list": [
         {
           "title": "Frontend engineer at <a href=\"https://www.pleo.io/\" target=\"_new\">Pleo</a>",
-          "date": "October 2025 - Nowadays",
+          "date": "October 2025 - Present",
           "text": ""
         },
         {
           "title": "Fullstack developer at <a href=\"https://www.lansweeper.com/\" target=\"_new\">Lansweeper</a>",
           "date": "July 2019 - September 2025",
-          "text": "In this adventure I took part in the team in charge of creating an IT assets management SaaS solution. This software was developed with React on the front; node microservices on the backends; graphQL, gRPC and kafka for communication and kubernetes for infraestructure. All of this stick together with CI/CD on github and tests. In this position I found new challenges everyday like focusing on performance and scalability when coding, creating POCs quickly and working with distributed teams across the globe."
+          "text": "I was part of the team in charge of creating an IT assets management SaaS solution. This software was developed with React on the front; node microservices on the backends; graphQL, gRPC and kafka for communication and kubernetes for infraestructure. All of this stick together with CI/CD on github and tests. In this position I found new challenges everyday like focusing on performance and scalability when coding, creating POCs quickly and working with distributed teams across the globe."
         },
         {
           "title": "Fullstack developer at <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
-          "date": "Juny 2016 - July 2019",
+          "date": "July 2016 - July 2019",
           "text": "I have worked on several projects, both for external clients and internal tools, in which I have used jQuery, Angular, Java, Spring, REST architectures, MySQL, MongoDB, git and Atlassian suite among others. <ul><li>I promoted in less than a year while working for a national insurance company.</li><li>I was in constant communication with the client and adapting our solution to their needs.</li><li>I managed several services and tools used across the whole company all around the world, I supported users, solved tickets and developed new features.</li><li>I grew up as a mentor helping new colleagues and giving talks and workshops to the rest of the employees in the center about rising technologies.</li></ul>"
         }
       ]
@@ -179,12 +179,12 @@
         {
           "title": "Volunteering at <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
           "date": "July 2016 - July 2019",
-          "text": "I have been an altruistic member of the organization in Alicante of several events such as <a href=\"https://www.womentechmakers.com/\" target=\"_new\">Women Tech Makers</a> or <a href=\"https://hashcode.withgoogle.com/\" target=\"_new\">Hash Code</a>, both planned by Google or <a href=\"https://2018.spaceappschallenge.org/\" target=\"_new\">Space Apps Challenge</a> convoked by NASA. At the same time I work on side projects, personal and with other colleagues, exploring other technologies such as Amazon Web Services or Docker."
+          "text": "I have been an altruistic member of the organization in Alicante of several events such as <a href=\"https://www.womentechmakers.com/\" target=\"_new\">Women Tech Makers</a> or <a href=\"https://hashcode.withgoogle.com/\" target=\"_new\">Hash Code</a>, both planned by Google or <a href=\"https://2018.spaceappschallenge.org/\" target=\"_new\">Space Apps Challenge</a> organized by NASA. At the same time I work on side projects, personal and with other colleagues, exploring other technologies such as Amazon Web Services or Docker."
         },
         {
           "title": "<a href=\"http://qubic.es\" target=\"_new\">Qubic</a>",
           "date": "2012 - 2017",
-          "text": "Senior member of this student assosiaction dedicated to organize workshops and technical expositions, organize events in spanish univeersities and build engineering projects."
+          "text": "Senior member of this student association dedicated to organizing workshops and technical expositions, events in Spanish universities and building engineering projects."
         }
       ]
     }
