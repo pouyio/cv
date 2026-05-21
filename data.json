@@ -38,7 +38,7 @@
             "item": "React/Angular"
           },
           {
-            "item": "HTML/CSS/"
+            "item": "HTML/CSS"
           },
           {
             "item": "REST/GraphQL"
@@ -55,7 +55,10 @@
         "title": "Soft",
         "list": [
           { "item": "Metodologías ágiles" },
-          { "item": "Trabajo en equipo" }
+          { "item": "Trabajo en equipo" },
+          { "item": "Resolución de problemas" },
+          { "item": "Adaptabilidad" },
+          { "item": "Orientación a producto y usuario" }
         ]
       }
     },
@@ -65,17 +68,17 @@
         {
           "title": "Ingeniero frontend en <a href=\"https://www.pleo.io/\" target=\"_new\">Pleo</a>",
           "date": "Octubre 2025 - Actualidad",
-          "text": "TBD"
+          "text": "Frontend en el equipo de integraciones de Pleo, una fintech de gestión de gastos. React y TypeScript para conectar la plataforma con servicios de múltiples proveedores, cuidando que cada interacción sea ágil, fiable y transparente para el usuario."
         },
         {
           "title": "Desarrollador fullstack en <a href=\"https://www.lansweeper.com/\" target=\"_new\">Lansweeper</a>",
           "date": "Julio 2019 - Septiembre 2025",
-          "text": "Formé parte del equipo encargado de crear una solución cloud SaaS para la gestión de inventario en el mundo IT. El software se desarrolló con React para el front; microservicios en node para los diferentes backends; graphQL, gRPC y kafka para las comunicaciones y kubernetes para la infraestructura. Todo ello con CI/CD, github y tests. En esta etapa me encontré con retos nuevos como orientar todo el desarrollo al rendimiento y la escalabilidad, realizar pruebas de concepto de forma muy ágil y trabajar y comunicarme con equipos alrededor de todo el mundo."
+          "text": "Miembro del equipo que creó una solución cloud SaaS para la gestión de inventario IT. React en el front, microservicios en Node para los distintos backend, GraphQL, gRPC y Kafka para comunicaciones, Kubernetes para infraestructura. CI/CD con GitHub y pruebas automatizadas. Retos: rendimiento y escalabilidad, POCs ágiles y trabajo con equipos distribuidos globalmente."
         },
         {
           "title": "Desarrollador fullstack en <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
           "date": "Julio 2016 - Julio 2019",
-          "text": "He trabajado tanto para clientes externos como en proyectos internos, en los cuales he usado jQuery, Angular, Java, Spring, arquitecturas REST, MySQL, MongoDB, git y suite Atlassian entre otros. <ul><li>Promocioné de categoría en menos de un año mientras trabajaba en un proyecto para una aseguradora nacional.</li><li>Estuve en contacto directo y continuo con el cliente y adaptando los cambios y necesidades al desarrollo.</li><li>Gestioné varios servicios y herramientas internas usadas por la compañía en todo el mundo dando soporte, resolviendo incidencias y haciendo desarrollos nuevos.</li><li>Me desarrollé como formador acogiendo a compañeros nuevos e impartiendo charlas y cursos al resto de empleados en nuevas tecnologías.</li></ul>"
+          "text": "Proyectos para clientes externos e internos con jQuery, Angular, Java, Spring, REST, MySQL, MongoDB, git y suite Atlassian. <ul><li>Ascenso en menos de un año en un proyecto para una aseguradora nacional.</li><li>Contacto directo con el cliente, adaptando cambios y necesidades al desarrollo.</li><li>Gestión de servicios y herramientas internas de uso global: soporte, incidencias y nuevas funcionalidades.</li><li>Mentoría de nuevos compañeros, charlas y cursos sobre nuevas tecnologías.</li></ul>"
         }
       ]
     },
@@ -85,7 +88,7 @@
         {
           "title": "Voluntario en <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
           "date": "Junio 2016 - Julio 2019",
-          "text": "He sido integrante de la organización en Alicante de varios eventos como son <a href=\"https://www.womentechmakers.com/\" target=\"_new\">Women Tech Makers</a> o <a href=\"https://hashcode.withgoogle.com/\" target=\"_new\">Hash Code</a>, ambos ideados por Google o <a href=\"https://2018.spaceappschallenge.org/\" target=\"_new\">Space Apps Challenge</a> convocado por la NASA. Todos ellos siendo éxitos de asistencia y organización. A su vez trabajé en proyectos personales y con otros compañeros, desarrollando ideas propias y  aplicando otras tecnologías ajenas a nuestro día a día con el fin de aprender y descubrir, todas ellas enfocadas al desarrollo web."
+          "text": "Miembro voluntario en eventos como <a href=\"https://www.womentechmakers.com/\" target=\"_new\">Women Tech Makers</a>, <a href=\"https://hashcode.withgoogle.com/\" target=\"_new\">Hash Code</a> (Google) y <a href=\"https://2018.spaceappschallenge.org/\" target=\"_new\">NASA Space Apps Challenge</a>. Además colaboré en proyectos personales y en equipo explorando tecnologías como AWS y Docker."
         },
         {
           "title": "<a href=\"http://qubic.es\" target=\"_new\">Qubic</a>",
@@ -150,7 +153,13 @@
       },
       "complementary": {
         "title": "Soft",
-        "list": [{ "item": "Agile methodologies" }, { "item": "Teamwork" }]
+        "list": [
+          { "item": "Agile methodologies" },
+          { "item": "Teamwork" },
+          { "item": "Problem-solving" },
+          { "item": "Adaptability" },
+          { "item": "Product & user orientation" }
+        ]
       }
     },
     "experiences": {
@@ -159,17 +168,17 @@
         {
           "title": "Frontend engineer at <a href=\"https://www.pleo.io/\" target=\"_new\">Pleo</a>",
           "date": "October 2025 - Present",
-          "text": ""
+          "text": "On the integrations team of a fintech spend management platform. React and TypeScript, connecting the platform with services from multiple providers — keeping every interaction fast, reliable, and transparent for the end user."
         },
         {
           "title": "Fullstack developer at <a href=\"https://www.lansweeper.com/\" target=\"_new\">Lansweeper</a>",
           "date": "July 2019 - September 2025",
-          "text": "I was part of the team in charge of creating an IT assets management SaaS solution. This software was developed with React on the front; node microservices on the backends; graphQL, gRPC and kafka for communication and kubernetes for infraestructure. All of this stick together with CI/CD on github and tests. In this position I found new challenges everyday like focusing on performance and scalability when coding, creating POCs quickly and working with distributed teams across the globe."
+          "text": "Member of the team that built an IT asset management SaaS solution. React on the front, Node microservices on the backend, GraphQL, gRPC and Kafka for communication, Kubernetes for infrastructure. CI/CD with GitHub and automated tests. Focus on performance and scalability, fast POCs, working with distributed teams across the globe."
         },
         {
           "title": "Fullstack developer at <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
           "date": "July 2016 - July 2019",
-          "text": "I have worked on several projects, both for external clients and internal tools, in which I have used jQuery, Angular, Java, Spring, REST architectures, MySQL, MongoDB, git and Atlassian suite among others. <ul><li>I promoted in less than a year while working for a national insurance company.</li><li>I was in constant communication with the client and adapting our solution to their needs.</li><li>I managed several services and tools used across the whole company all around the world, I supported users, solved tickets and developed new features.</li><li>I grew up as a mentor helping new colleagues and giving talks and workshops to the rest of the employees in the center about rising technologies.</li></ul>"
+          "text": "Projects for external clients and internal tools using jQuery, Angular, Java, Spring, REST, MySQL, MongoDB, git and Atlassian suite. <ul><li>Promoted in less than a year on a project for a national insurance company.</li><li>Direct client communication, adapting solutions to their needs.</li><li>Managed internal services and tools used company-wide: support, tickets, and feature development.</li><li>Mentored new colleagues, gave talks and workshops on emerging technologies.</li></ul>"
         }
       ]
     },
@@ -179,7 +188,7 @@
         {
           "title": "Volunteering at <a href=\"http://www.everis.com/global/en-US/home/Paginas/home.aspx\" target=\"_new\">Everis</a>",
           "date": "July 2016 - July 2019",
-          "text": "I have been an altruistic member of the organization in Alicante of several events such as <a href=\"https://www.womentechmakers.com/\" target=\"_new\">Women Tech Makers</a> or <a href=\"https://hashcode.withgoogle.com/\" target=\"_new\">Hash Code</a>, both planned by Google or <a href=\"https://2018.spaceappschallenge.org/\" target=\"_new\">Space Apps Challenge</a> organized by NASA. At the same time I work on side projects, personal and with other colleagues, exploring other technologies such as Amazon Web Services or Docker."
+          "text": "Volunteer member for events including <a href=\"https://www.womentechmakers.com/\" target=\"_new\">Women Tech Makers</a>, <a href=\"https://hashcode.withgoogle.com/\" target=\"_new\">Hash Code</a> (Google) and <a href=\"https://2018.spaceappschallenge.org/\" target=\"_new\">NASA Space Apps Challenge</a>. Also collaborated on personal and team side projects focused on technologies such as AWS and Docker."
         },
         {
           "title": "<a href=\"http://qubic.es\" target=\"_new\">Qubic</a>",
